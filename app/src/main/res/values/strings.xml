@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">notes</string>
+    <string name="done">done</string>
+    <string name="title">Title</string>
+    <string name="notes">Notes</string>
+    <color name="c1">#FF6263</color>
+    <color name="c2">#1B98F5</color>
+    <color name="c3">#CAD5E2</color>
+    <color name="c4">#E8BD0D</color>
+    <color name="c5">#50DBB4</color>
+    <color name="c6">#5DA3FA</color>
+    <color name="c7">#0D0D0D</color>
+</resources>

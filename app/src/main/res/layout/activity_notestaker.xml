@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Notestaker">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:layout_marginHorizontal="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+      >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:singleLine="true"
+            android:textSize="15sp"
+            android:hint="@string/title"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:layout_marginHorizontal="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="208dp"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:textSize="15sp"
+            android:hint="@string/notes"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+<!--    <EditText-->
+<!--        android:id="@+id/edit_title"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="20dp"-->
+<!--        android:hint="Title"-->
+<!--        android:textColor="?android:textColorPrimaryDisableOnly"-->
+<!--        android:textSize="25sp"-->
+<!--        android:textStyle="bold"/>-->
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/edit_notes"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="20dp"-->
+<!--        android:hint="Note"-->
+<!--        android:textColor="?android:textColorPrimaryDisableOnly"-->
+<!--        android:textSize="15sp"-->
+<!--        android:textStyle="normal"/>-->
+
+</LinearLayout>
